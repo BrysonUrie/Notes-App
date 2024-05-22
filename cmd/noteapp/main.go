@@ -17,5 +17,13 @@ func main() {
 
 	e.GET("/notes", routes.RenderNotes)
 
-	e.Logger.Fatal(e.Start(":42069"))
+	e.POST("/notes/edit/:id", routes.RenderNote)
+
+	e.POST("/notes/new", routes.NewNote)
+
+	e.POST("/notes/save/:id", routes.SaveNote)
+
+	e.DELETE("/notes/delete/:id", routes.DeleteNote)
+
+	e.Logger.Fatal(e.Start(":8081"))
 }
