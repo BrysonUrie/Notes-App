@@ -4,8 +4,8 @@ This is a simple notes app that allows users to create, read, update, and delete
 
 ## Features
 
-- User authentication: Users can sign up, log in, and log out.
-- Session management: User sessions are managed using cookies.
+- User authentication: Users can sign up, log in, and log out. (WIP)
+- Session management: User sessions are managed using cookies. (WIP)
 - Database integration: The app uses a database to store user information and notes.
 
 ## Prerequisites
