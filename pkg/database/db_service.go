@@ -42,7 +42,7 @@ func InitDB() {
 		log.Fatal(err)
 	}
 
-	err = AddUserToDB("1", "admin", "admin")
+	err = AddUserToDB("1", "admin", "password")
 	if err != nil {
 		log.Fatal(err)
 	}

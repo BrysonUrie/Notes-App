@@ -15,6 +15,8 @@ func main() {
 
 	e.GET("/login", routes.RenderLogin)
 
+	e.POST("/api/login", routes.Login)
+
 	e.GET("/notes", routes.RenderNotes)
 
 	e.POST("/notes/edit/:id", routes.RenderNote)
